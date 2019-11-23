@@ -8,7 +8,7 @@ function getJokes(e){
     const xhrJokes = new XMLHttpRequest();
     
     // External API
-    xhrJokes.open('GET',`http://api.icndb.com/jokes/random/${numOfJokes}`, true);
+    xhrJokes.open('GET',`https://api.icndb.com/jokes/random/${numOfJokes}`, true);
 
     xhrJokes.onload = function(){
         if(this.status === 200){
