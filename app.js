@@ -23,7 +23,7 @@ function getJokes(e){
             } else {
                 output += '<h5>Something went wrong</h5>'
             }
-
+            
             document.querySelector('.jokes').innerHTML = output;
         }
     }
